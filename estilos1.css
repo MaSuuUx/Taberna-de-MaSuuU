@@ -1,0 +1,199 @@
+body{
+  font-family: sans-serif;
+  background-color: #133432;
+  background-attachment: fixed;
+  position: relative;
+  padding-bottom: 3em;
+
+}
+
+.titulo{
+  font-family: 'Silkscreen', cursive;
+  color: #fff;
+
+}
+
+.seccion{
+  text-align: center;
+}
+
+
+.menu{
+  list-style: none;
+  padding: 15px;
+  background:#305562;
+  width: 97%;
+  height: 30%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+  font-family: 'Silkscreen', cursive;
+}
+
+.menu li a:hover{
+  background:rgba(211, 211, 211, 40%);
+  border-radius: 10px;
+}
+
+p{
+  font-size: 20px;
+}
+
+ul li{
+  font-size: 20px;
+}
+
+.marco{
+  border-style: solid;
+}
+
+.slider{
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider ul{
+  display: flex;
+  padding: 0;
+  width: 500%;
+
+  animation: cambio 20s infinite;
+}
+
+.slider li{
+  list-style: none;
+  width: 100%;
+}
+
+.slider img{
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {margin-left: 0}
+  10% {margin-left: 0}
+
+  20% {margin-left: -100%;}
+  30% {margin-left: -100%;}
+
+  40% {margin-left: -200%;}
+  50% {margin-left: -200%;}
+
+  60% {margin-left: -300%;}
+  70% {margin-left: -300%;}
+
+  80% {margin-left: -400%;}
+  90% {margin-left: -400%;}
+
+}
+
+.contenedor{
+  margin-top: 150px;
+  display: flex;
+  background-color:#55a59e;
+  padding: 25px;
+  color: white;
+  border-radius: 20px;
+
+}
+
+.text{
+  text-align: center;
+  padding-left: 65px;
+  color: black;
+  font-family: 'Itim', cursive;
+}
+
+.logo{
+  text-align: center;
+}
+
+.contenedor1{
+  width: 60%;
+  margin-top: 50px;
+  display: flex;
+  background-color:#55a59e;
+  padding: 25px;
+  color:white;
+  border-radius: 20px;
+  float: left;
+}
+
+.contenedor2{
+  width: 30%;
+  height: 450px;
+  float: right;
+  margin-top: 50px;
+  display: flex;
+  background-color: #55a59e;
+  padding: 25px;
+  color:white;
+  border-radius: 20px;
+}
+
+.contenedor3{
+  width: 30%;
+  margin-top: 50px;
+  display: flex;
+  background-color: #55a59e;
+  padding: 25px;
+  color: #fff;
+  border-radius: 20px;
+  float: left;
+  bottom: 0;
+}
+
+
+.titulo1{
+  font-family: 'Silkscreen', cursive;
+  color: #fff;
+  text-align: center;
+}
+
+.video{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.marco-animes{
+  border-style: solid;
+  border-width: 5px;
+  border-color: #000710;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.imagen{
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.li{
+  text-align: left;
+  font-size: 15px;
+}
+
+h3{
+  font-size: 25px;
+}
+
+p{
+  font-size: 20px;
+}
